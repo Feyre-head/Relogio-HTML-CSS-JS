@@ -17,7 +17,7 @@ function carregar() {
   if (hora >= 0 && hora < 12) {
     //Bom dia
     imagem.src = "./imagens/manha.png";
-  } else if (hora >= "12" && hora <= "18") {
+  } else if (hora >= "12" && hora < "18") {
     //Boa tarde
     imagem.src = "./imagens/tarde.png";
     document.body.style.background = "#356741bd";
